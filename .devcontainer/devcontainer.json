@@ -1,8 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {
+    "ghcr.io/devcontainers-contrib/features/neofetch:1": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-        "packages": "neofetch,make,autoconf,automake,libtool,m4,wget,gzip,bzip2,bison,g++,git,cmake,pkg-config,re2c,ca-certificates"
+        "packages": "make,autoconf,automake,libtool,m4,wget,gzip,bzip2,bison,g++,git,cmake,pkg-config,re2c,ca-certificates"
     }
   }
 }
